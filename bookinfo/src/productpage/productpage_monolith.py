@@ -313,7 +313,8 @@ def front():
         product=product,
         details=details,
         reviews={"R1":"OK"},
-        user=user)
+        user=user,
+	group_number=os.environ.get("GROUP_NUMBER"))
 
 
 # The API:
